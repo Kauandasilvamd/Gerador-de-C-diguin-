@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e43d3d;
+}
+
+#codigo-gerado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#mensagem-sucesso {
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+}
+        .subscribe-button {
+            margin-top: 20px;
+        }
+
+        .subscribe-button a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff4c4c;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .subscribe-button a:hover {
+            background-color: #e43d3d;
+        }
